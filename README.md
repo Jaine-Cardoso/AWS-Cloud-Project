@@ -26,7 +26,7 @@ Avaibiliaty Zones: são datas centers independentes fisicamente, mas conectados 
 
 Zonas de Disponibilidade:Cada região é independente das demais regiões, o que significa que os recursos são exclusivos da região escolhida em que está sendo provisionado os recursos.
 Isso contribui para maior tolerância a falhas e não há replicação automática entre as regiões, isto deve ser habilitado pelo administrador da conta.
-[ ! a imagem mostra as regions e as avaibiliaty zones](imagens/print1.png)
+[ ! a imagem mostra as regions e as avaibiliaty zones](images/print1.png)
 
 **Modelo de negócio AWS**
 
