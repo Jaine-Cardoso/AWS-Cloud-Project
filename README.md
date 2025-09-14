@@ -26,7 +26,7 @@ Avaibiliaty Zones: são datas centers independentes fisicamente, mas conectados 
 
 Zonas de Disponibilidade:Cada região é independente das demais regiões, o que significa que os recursos são exclusivos da região escolhida em que está sendo provisionado os recursos.
 Isso contribui para maior tolerância a falhas e não há replicação automática entre as regiões, isto deve ser habilitado pelo administrador da conta.
-[a imagem mostra as regions e as avaibiliaty zones](images/print1.png)
+[a imagem mostra as regions e as avaibiliaty zones ]
 
 **Modelo de negócio AWS**
 
@@ -42,7 +42,7 @@ Diferente do modelo CAPEX que precisamos de uma infraestrutura física para come
 
 - SaaS- ( Software as a Service) é tudo que você paga pra ultilizar>Ex: E-mail, Gmail, Spotify, Netflix.Resumindo é aquele serviço que está pronto,o usúario faz login e acessa.
 
-[a imagem mostra os modelos de computação em nuvem](images/print2.png)
+[a imagem mostra os modelos de computação em nuvem]
 
 **Configurações da conta AWS**
 
@@ -56,7 +56,7 @@ Esses usuários podem ser criados a partir da conta root.
 Procure IAM, vá ao Painel e clique em usuários, crie um novo usuário e dê permissões de acordo com cada função que será exercida por esse usário.
 Também é possível criar grupos para esses usuários. assim fica mais fácil o acesso da equipe de gerenciamento e administração.
 
-[a imagem mostra o painel de usuários em uma conta na AWS](images/print3.png)
+[a imagem mostra o painel de usuários em uma conta na AWS]
 
 **Autenticação multifator (MFA)**
 A Autencicação multifactor ajuda a manter a conta sempre protegida, gerando códigos aleatórios ao fazer o login.
@@ -70,7 +70,7 @@ A Autencicação multifactor ajuda a manter a conta sempre protegida, gerando c�
 **O que são as instâncias EC2?**
 EC2 - Elastic Compute Cloud, são as máquinas virtuais na AWS, podendo ser com sistema operacional Windows ou Linux.
 Os tipos de instância oferece diferentes recursos de computação como memória e armazenamento e é agrupado em famílias de instâncias com base nesses recursos.
-[a imagem mostra os tipos de instâncias EC2](images/print4.png)
+[a imagem mostra os tipos de instâncias EC2]
 Uma EC2 é composta por uma 
 
 - CPU
@@ -91,8 +91,8 @@ Seria dos aplicativos, dados e conexões que fazemos.
  Escolher a instância correta na AWS é crucial para garantir eficiência,escalabilidade e economia nos gastos com nuvem.
 Escolher a instância certa não se trata apenas de selecionar um tipo aleatório, mas sim de entender as necessidades de sua aplicação e utilizar os recursos da nuvem de forma inteligente para alcançar eficiência operacional e econômica.
 
-[a imagem mostra como criar uma estimativa de custo na AWS princing calculator](images/print5.png)
-[a imagem mostra o valor dos custos ao criar uma EC2](images/print6.png)
+[a imagem mostra como criar uma estimativa de custo na AWS princing calculator]
+[a imagem mostra o valor dos custos ao criar uma EC2]
  
 **EC2 - Terminologia**
 
@@ -108,7 +108,7 @@ Quando falamos em otimização de recursos, estamos apontando para "custo", ou s
 
 Mesmo otimizando recurso computacional, onde melhoramos o desempenho do sistema, estamos poupando custo, pois isto traz ganho para a nossa solução na nuvem.
 
-[!a imagem mostra um exemplo de otimização de recursos](images/print7.png)
+[!a imagem mostra um exemplo de otimização de recursos]
 
 **Desligando instâncias não utilizadas**
 
@@ -177,8 +177,8 @@ Lifecycle permite fazer a transição de objetos e migrar automaticamente para a
 **Imagem de máquina da Amazon(AMI)**
 
 No Amazon EC2 (Elastic Compute Cloud), uma AMI (Amazon Machibr Image) é uma imagem de máquina virtual pré configurada, que inclui as informações necessárias para iniciar uma instância, como o sistema operativo, o servidor de aplicações e as aplicações.
-[a imagem mostra um desenho de arquitetura](images/print8.desenho1)
-[a imagem mostra um modelo de arquiteura](images/print9.desenho2)
+[a imagem mostra um desenho de arquitetura]
+[a imagem mostra um modelo de arquiteura]
 
 **Snapshot com EBS**
 
